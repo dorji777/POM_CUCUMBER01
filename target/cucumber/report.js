@@ -66,50 +66,6 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "White Background Change",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@Loginfeature"
-    },
-    {
-      "name": "@Regression"
-    },
-    {
-      "name": "@Scenario2"
-    }
-  ]
-});
-formatter.step({
-  "name": "Set SkyWhite Background button exists",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefination.set_SkyWhite_Background_button_exists()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the button2",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStepDefination.i_click_on_the_button2()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.step({
   "name": "the background color will change to white",
   "keyword": "Then "

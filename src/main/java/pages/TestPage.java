@@ -21,6 +21,7 @@ public class TestPage {
 		 SetSkyBlueBG.click();
 		 
 		 
+		 
 	 }
 	 public void clickSkyWhite() {
 		 SetWhiteBackGround.click();

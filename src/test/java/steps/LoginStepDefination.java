@@ -34,18 +34,19 @@ public class LoginStepDefination extends TestBase {
 	
 	@When ("I click on the button;")	
 	public void i_click_on_the_button() throws IOException, Throwable {
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	}
 
 	@Then("the background color will change to sky blue")
-	public void the_background_color_will_change_to_sky_blue() {
+	public void the_background_color_will_change_to_sky_blue() throws Throwable {
 
 		testpage.clickSkyBlue();
+		Thread.sleep(3000);
 }
 	
 ///////White
 	
-	
+/*	
 	@Given ("Set SkyWhite Background button exists")
 	public void set_SkyWhite_Background_button_exists() {
 		driver.get("http://techfios.com/test/101/");
@@ -56,9 +57,9 @@ public class LoginStepDefination extends TestBase {
 	
 	@When ("I click on the button2")	
 	public void i_click_on_the_button2() throws IOException, Throwable {
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 	}
-
+*/
 	
 	@Then ("the background color will change to white")
 	public void the_background_color_will_change_to_white() {
