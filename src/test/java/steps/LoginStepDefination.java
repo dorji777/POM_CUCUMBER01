@@ -66,6 +66,8 @@ public class LoginStepDefination extends TestBase {
 		
 		testpage.clickSkyWhite();
 		
+		System.out.println("Test");
+		
 }
 	
 }
